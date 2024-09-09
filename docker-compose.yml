@@ -1,0 +1,15 @@
+services:
+
+  cf-python-env:
+    image: python:3.8.10
+    container_name: cf-python-env
+    volumes:
+      - ./python/src:/usr/src
+    tty: true
+
+  cf-go-env:
+    image: golang:1.22.2
+    container_name: cf-go-env
+    volumes:
+      - ./go/src:/usr/src
+    tty: true
