@@ -1,10 +1,10 @@
 services:
 
-  cf-python-env:
+  cf-py-env:
     image: python:3.8.10
-    container_name: cf-python-env
+    container_name: cf-py-env
     volumes:
-      - ./python/src:/usr/src
+      - ./py/src:/usr/src
     tty: true
 
   cf-go-env:

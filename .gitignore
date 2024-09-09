@@ -2,5 +2,5 @@
 
 go/src/*
 !go/src/.gitkeep
-python/src/*
-!python/src/.gitkeep
+py/src/*
+!py/src/.gitkeep

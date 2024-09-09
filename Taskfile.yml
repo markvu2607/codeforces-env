@@ -4,13 +4,13 @@ tasks:
   # python
   py:up:
     cmds:
-      - docker compose up -d cf-python-env
+      - docker compose up -d cf-py-env
   py:down:
     cmds:
-      - docker compose down cf-python-env
+      - docker compose down cf-py-env
   py:exec:
     cmds:
-      - docker exec -it cf-python-env bash -c "cd /usr/src && exec bash"
+      - docker exec -it cf-py-env bash -c "cd /usr/src && exec bash"
 
   # go
   go:up:
