@@ -1,10 +1,22 @@
+import sys
+input = sys.stdin.readline
+
+def inp():
+    return(int(input()))
+def inlt():
+    return(list(map(int,input().split())))
+def insr():
+    s = input()
+    return(list(s[:len(s) - 1]))
+def invr():
+    return(map(int,input().split()))
+
+############ ---- Write below ---- ############
 def fn():
-  # Write your function here
-  return "Hello" + " " + v
+    pass
 
 if __name__ == "__main__":
     # Read input
-    v = input().split()
 
     # Get the result and print it
     result = fn()

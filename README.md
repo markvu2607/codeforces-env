@@ -1,6 +1,6 @@
-# Docker environment to solve Codeforces
+# Docker environment for Codeforces
 
-# Env
+# Requirement
 
 - [Docker](https://www.docker.com/)
 - [Taskfile](https://taskfile.dev/)

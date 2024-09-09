@@ -1,3 +1,5 @@
+.vscode
+
 go/src/*
 !go/src/.gitkeep
 python/src/*
