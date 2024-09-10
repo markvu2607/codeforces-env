@@ -13,11 +13,6 @@ def invr():
 
 ############ ---- Write below ---- ############
 def fn():
-    pass
+
 
 if __name__ == "__main__":
-    # Read input
-
-    # Get the result and print it
-    result = fn()
-    print(result)
