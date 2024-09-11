@@ -2,6 +2,9 @@ version: "3"
 
 tasks:
   # python
+  py:start:
+    cmds:
+      - task py:up && task py:exec
   py:up:
     cmds:
       - docker compose up -d cf-py-env
@@ -13,6 +16,9 @@ tasks:
       - docker exec -it cf-py-env bash -c "cd /usr/src && exec bash"
 
   # go
+  go:start:
+    cmds:
+      - task go:up && task go:exec
   go:up:
     cmds:
       - docker compose up -d cf-go-env

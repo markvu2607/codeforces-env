@@ -161,14 +161,10 @@ func writeLine(arg ...interface{})             { fmt.Println(arg...) }
 func writeFormat(f string, arg ...interface{}) { fmt.Printf(f, arg...) }
 
 /* --------------- Write below --------------- */
-func fn() string {
-	return "Hello CF!"
+func fn() {
+
 }
 
 func main() {
-	// Read input
 
-	// Get the result and print it
-	result := fn()
-	writeLine(result)
 }
