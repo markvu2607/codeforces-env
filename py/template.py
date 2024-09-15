@@ -11,6 +11,9 @@ def insr():
 def invr():
     return(map(int,input().split()))
 
+def copy_dict(d, ignore = []):
+    return {k: d[k] for k in set(list(d.keys())) - set(ignore)}
+
 ############ ---- Write below ---- ############
 def fn():
 
