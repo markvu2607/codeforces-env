@@ -15,4 +15,9 @@ def copy_dict(d, ignore = []):
     return {k: d[k] for k in set(list(d.keys())) - set(ignore)}
 
 ############ ---- Write below ---- ############
+
+def main():
+    pass
+
 if __name__ == "__main__":
+    main()
